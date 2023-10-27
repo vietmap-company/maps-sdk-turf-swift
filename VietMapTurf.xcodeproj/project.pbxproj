@@ -36,7 +36,7 @@
 		3534C3BB200C419200F93581 /* polygon.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 3547ECFC200C3C82009DA062 /* polygon.geojson */; };
 		3534C3BC200C442700F93581 /* CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547ECF0200C3C78009DA062 /* CoreLocation.swift */; };
 		3534C3BD200C442A00F93581 /* Turf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547ECF1200C3C78009DA062 /* Turf.swift */; };
-		353E9B101F3E093A007CFA23 /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353E9B071F3E093A007CFA23 /* Turf.framework */; };
+		353E9B101F3E093A007CFA23 /* VietMapTurf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353E9B071F3E093A007CFA23 /* VietMapTurf.framework */; };
 		3547ECF4200C3C78009DA062 /* Turf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3547ECEF200C3C78009DA062 /* Turf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3547ECF5200C3C78009DA062 /* CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547ECF0200C3C78009DA062 /* CoreLocation.swift */; };
 		3547ECF6200C3C78009DA062 /* Turf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547ECF1200C3C78009DA062 /* Turf.swift */; };
@@ -45,7 +45,7 @@
 		3547ED10200C3E0B009DA062 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547ECFD200C3C82009DA062 /* Fixture.swift */; };
 		3547ED11200C3E0C009DA062 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547ECFD200C3C82009DA062 /* Fixture.swift */; };
 		3547ED12200C3E49009DA062 /* Turf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3547ECEF200C3C78009DA062 /* Turf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35650AFA1F150DC500B5C158 /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35650AF01F150DC500B5C158 /* Turf.framework */; };
+		35650AFA1F150DC500B5C158 /* VietMapTurf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35650AF01F150DC500B5C158 /* VietMapTurf.framework */; };
 		3573EA6D215A393F009899D7 /* GeoJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3573EA6C215A393F009899D7 /* GeoJSONTests.swift */; };
 		3573EA6E215A393F009899D7 /* GeoJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3573EA6C215A393F009899D7 /* GeoJSONTests.swift */; };
 		3573EA6F215A393F009899D7 /* GeoJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3573EA6C215A393F009899D7 /* GeoJSONTests.swift */; };
@@ -128,7 +128,7 @@
 		CE7F8164215182FF00A9D221 /* BoundingBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F8163215182FF00A9D221 /* BoundingBoxTests.swift */; };
 		CE7F8165215182FF00A9D221 /* BoundingBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F8163215182FF00A9D221 /* BoundingBoxTests.swift */; };
 		CE7F8166215182FF00A9D221 /* BoundingBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F8163215182FF00A9D221 /* BoundingBoxTests.swift */; };
-		DA39EB6E20101F99004D87F7 /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA39EB6520101F98004D87F7 /* Turf.framework */; };
+		DA39EB6E20101F99004D87F7 /* VietMapTurf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA39EB6520101F98004D87F7 /* VietMapTurf.framework */; };
 		DA39EB7C20101FB9004D87F7 /* Turf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3547ECEF200C3C78009DA062 /* Turf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA39EB7D20101FCD004D87F7 /* CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547ECF0200C3C78009DA062 /* CoreLocation.swift */; };
 		DA39EB7E20101FCD004D87F7 /* Turf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3547ECF1200C3C78009DA062 /* Turf.swift */; };
@@ -173,8 +173,8 @@
 		35166855202E6CEE0032A97E /* multipoint.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = multipoint.geojson; sourceTree = "<group>"; };
 		35166859202EFE680032A97E /* multiline.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = multiline.geojson; sourceTree = "<group>"; };
 		3516685D202EFF130032A97E /* multipolygon.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = multipolygon.geojson; sourceTree = "<group>"; };
-		353E9B071F3E093A007CFA23 /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		353E9B0F1F3E093A007CFA23 /* TurfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353E9B071F3E093A007CFA23 /* VietMapTurf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VietMapTurf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		353E9B0F1F3E093A007CFA23 /* VietMapTurfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietMapTurfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3547ECEF200C3C78009DA062 /* Turf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Turf.h; sourceTree = "<group>"; };
 		3547ECF0200C3C78009DA062 /* CoreLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocation.swift; sourceTree = "<group>"; };
 		3547ECF1200C3C78009DA062 /* Turf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turf.swift; sourceTree = "<group>"; };
@@ -185,8 +185,8 @@
 		3547ECFD200C3C82009DA062 /* Fixture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fixture.swift; sourceTree = "<group>"; };
 		3547ECFE200C3C82009DA062 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3547ED09200C3C8A009DA062 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
-		35650AF01F150DC500B5C158 /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35650AF91F150DC500B5C158 /* TurfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35650AF01F150DC500B5C158 /* VietMapTurf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VietMapTurf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35650AF91F150DC500B5C158 /* VietMapTurfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietMapTurfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3573EA6C215A393F009899D7 /* GeoJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONTests.swift; sourceTree = "<group>"; };
 		357495BD208E3432007D7477 /* featurecollection.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = featurecollection.geojson; sourceTree = "<group>"; };
 		35B56E6920DAF3C500C4923D /* RadianCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadianCoordinate2D.swift; sourceTree = "<group>"; };
@@ -210,9 +210,9 @@
 		C46809D52124199500BAD5E1 /* featurecollection-no-properties.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = "featurecollection-no-properties.geojson"; sourceTree = "<group>"; };
 		CE2EB997214C246A00915A30 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
 		CE7F8163215182FF00A9D221 /* BoundingBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxTests.swift; sourceTree = "<group>"; };
-		DA39EB6520101F98004D87F7 /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA39EB6D20101F99004D87F7 /* TurfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA94249B2010283900CDB4E6 /* Turf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Turf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA39EB6520101F98004D87F7 /* VietMapTurf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VietMapTurf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA39EB6D20101F99004D87F7 /* VietMapTurfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VietMapTurfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA94249B2010283900CDB4E6 /* VietMapTurf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VietMapTurf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,7 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353E9B101F3E093A007CFA23 /* Turf.framework in Frameworks */,
+				353E9B101F3E093A007CFA23 /* VietMapTurf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +242,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35650AFA1F150DC500B5C158 /* Turf.framework in Frameworks */,
+				35650AFA1F150DC500B5C158 /* VietMapTurf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +257,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA39EB6E20101F99004D87F7 /* Turf.framework in Frameworks */,
+				DA39EB6E20101F99004D87F7 /* VietMapTurf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,13 +344,13 @@
 		35650AF11F150DC500B5C158 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35650AF01F150DC500B5C158 /* Turf.framework */,
-				35650AF91F150DC500B5C158 /* TurfTests.xctest */,
-				353E9B071F3E093A007CFA23 /* Turf.framework */,
-				353E9B0F1F3E093A007CFA23 /* TurfTests.xctest */,
-				DA39EB6520101F98004D87F7 /* Turf.framework */,
-				DA39EB6D20101F99004D87F7 /* TurfTests.xctest */,
-				DA94249B2010283900CDB4E6 /* Turf.framework */,
+				35650AF01F150DC500B5C158 /* VietMapTurf.framework */,
+				35650AF91F150DC500B5C158 /* VietMapTurfTests.xctest */,
+				353E9B071F3E093A007CFA23 /* VietMapTurf.framework */,
+				353E9B0F1F3E093A007CFA23 /* VietMapTurfTests.xctest */,
+				DA39EB6520101F98004D87F7 /* VietMapTurf.framework */,
+				DA39EB6D20101F99004D87F7 /* VietMapTurfTests.xctest */,
+				DA94249B2010283900CDB4E6 /* VietMapTurf.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -410,9 +410,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		353E9B061F3E093A007CFA23 /* TurfMac */ = {
+		353E9B061F3E093A007CFA23 /* VietMapTurfMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 353E9B181F3E093A007CFA23 /* Build configuration list for PBXNativeTarget "TurfMac" */;
+			buildConfigurationList = 353E9B181F3E093A007CFA23 /* Build configuration list for PBXNativeTarget "VietMapTurfMac" */;
 			buildPhases = (
 				353E9B021F3E093A007CFA23 /* Sources */,
 				353E9B031F3E093A007CFA23 /* Frameworks */,
@@ -423,14 +423,14 @@
 			);
 			dependencies = (
 			);
-			name = TurfMac;
+			name = VietMapTurfMac;
 			productName = TurfMac;
-			productReference = 353E9B071F3E093A007CFA23 /* Turf.framework */;
+			productReference = 353E9B071F3E093A007CFA23 /* VietMapTurf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		353E9B0E1F3E093A007CFA23 /* TurfMacTests */ = {
+		353E9B0E1F3E093A007CFA23 /* VietMapTurfMacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 353E9B1B1F3E093A007CFA23 /* Build configuration list for PBXNativeTarget "TurfMacTests" */;
+			buildConfigurationList = 353E9B1B1F3E093A007CFA23 /* Build configuration list for PBXNativeTarget "VietMapTurfMacTests" */;
 			buildPhases = (
 				353E9B0B1F3E093A007CFA23 /* Sources */,
 				353E9B0C1F3E093A007CFA23 /* Frameworks */,
@@ -441,14 +441,14 @@
 			dependencies = (
 				353E9B121F3E093A007CFA23 /* PBXTargetDependency */,
 			);
-			name = TurfMacTests;
+			name = VietMapTurfMacTests;
 			productName = TurfMacTests;
-			productReference = 353E9B0F1F3E093A007CFA23 /* TurfTests.xctest */;
+			productReference = 353E9B0F1F3E093A007CFA23 /* VietMapTurfTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		35650AEF1F150DC500B5C158 /* Turf */ = {
+		35650AEF1F150DC500B5C158 /* VietMapTurf */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35650B041F150DC500B5C158 /* Build configuration list for PBXNativeTarget "Turf" */;
+			buildConfigurationList = 35650B041F150DC500B5C158 /* Build configuration list for PBXNativeTarget "VietMapTurf" */;
 			buildPhases = (
 				35650AEB1F150DC500B5C158 /* Sources */,
 				35650AEC1F150DC500B5C158 /* Frameworks */,
@@ -459,14 +459,14 @@
 			);
 			dependencies = (
 			);
-			name = Turf;
+			name = VietMapTurf;
 			productName = Turf;
-			productReference = 35650AF01F150DC500B5C158 /* Turf.framework */;
+			productReference = 35650AF01F150DC500B5C158 /* VietMapTurf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		35650AF81F150DC500B5C158 /* TurfTests */ = {
+		35650AF81F150DC500B5C158 /* VietMapTurfTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35650B071F150DC500B5C158 /* Build configuration list for PBXNativeTarget "TurfTests" */;
+			buildConfigurationList = 35650B071F150DC500B5C158 /* Build configuration list for PBXNativeTarget "VietMapTurfTests" */;
 			buildPhases = (
 				35650AF51F150DC500B5C158 /* Sources */,
 				35650AF61F150DC500B5C158 /* Frameworks */,
@@ -477,14 +477,14 @@
 			dependencies = (
 				35650AFC1F150DC500B5C158 /* PBXTargetDependency */,
 			);
-			name = TurfTests;
+			name = VietMapTurfTests;
 			productName = TurfTests;
-			productReference = 35650AF91F150DC500B5C158 /* TurfTests.xctest */;
+			productReference = 35650AF91F150DC500B5C158 /* VietMapTurfTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA39EB6420101F98004D87F7 /* TurfTV */ = {
+		DA39EB6420101F98004D87F7 /* VietMapTurfTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA39EB7A20101F99004D87F7 /* Build configuration list for PBXNativeTarget "TurfTV" */;
+			buildConfigurationList = DA39EB7A20101F99004D87F7 /* Build configuration list for PBXNativeTarget "VietMapTurfTV" */;
 			buildPhases = (
 				DA39EB6020101F98004D87F7 /* Sources */,
 				DA39EB6120101F98004D87F7 /* Frameworks */,
@@ -495,14 +495,14 @@
 			);
 			dependencies = (
 			);
-			name = TurfTV;
+			name = VietMapTurfTV;
 			productName = TurfWatch;
-			productReference = DA39EB6520101F98004D87F7 /* Turf.framework */;
+			productReference = DA39EB6520101F98004D87F7 /* VietMapTurf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA39EB6C20101F99004D87F7 /* TurfTVTests */ = {
+		DA39EB6C20101F99004D87F7 /* VietMapTurfTVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA39EB7B20101F99004D87F7 /* Build configuration list for PBXNativeTarget "TurfTVTests" */;
+			buildConfigurationList = DA39EB7B20101F99004D87F7 /* Build configuration list for PBXNativeTarget "VietMapTurfTVTests" */;
 			buildPhases = (
 				DA39EB6920101F99004D87F7 /* Sources */,
 				DA39EB6A20101F99004D87F7 /* Frameworks */,
@@ -513,14 +513,14 @@
 			dependencies = (
 				DA39EB7020101F99004D87F7 /* PBXTargetDependency */,
 			);
-			name = TurfTVTests;
+			name = VietMapTurfTVTests;
 			productName = TurfWatchTests;
-			productReference = DA39EB6D20101F99004D87F7 /* TurfTests.xctest */;
+			productReference = DA39EB6D20101F99004D87F7 /* VietMapTurfTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA94249A2010283900CDB4E6 /* TurfWatch */ = {
+		DA94249A2010283900CDB4E6 /* VietMapTurfWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA9424A02010283A00CDB4E6 /* Build configuration list for PBXNativeTarget "TurfWatch" */;
+			buildConfigurationList = DA9424A02010283A00CDB4E6 /* Build configuration list for PBXNativeTarget "VietMapTurfWatch" */;
 			buildPhases = (
 				DA9424962010283900CDB4E6 /* Sources */,
 				DA9424972010283900CDB4E6 /* Frameworks */,
@@ -531,9 +531,9 @@
 			);
 			dependencies = (
 			);
-			name = TurfWatch;
+			name = VietMapTurfWatch;
 			productName = TurfWatch;
-			productReference = DA94249B2010283900CDB4E6 /* Turf.framework */;
+			productReference = DA94249B2010283900CDB4E6 /* VietMapTurf.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -576,7 +576,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 35650AEA1F150DC500B5C158 /* Build configuration list for PBXProject "Turf" */;
+			buildConfigurationList = 35650AEA1F150DC500B5C158 /* Build configuration list for PBXProject "VietMapTurf" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -588,13 +588,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35650AEF1F150DC500B5C158 /* Turf */,
-				35650AF81F150DC500B5C158 /* TurfTests */,
-				353E9B061F3E093A007CFA23 /* TurfMac */,
-				353E9B0E1F3E093A007CFA23 /* TurfMacTests */,
-				DA39EB6420101F98004D87F7 /* TurfTV */,
-				DA39EB6C20101F99004D87F7 /* TurfTVTests */,
-				DA94249A2010283900CDB4E6 /* TurfWatch */,
+				35650AEF1F150DC500B5C158 /* VietMapTurf */,
+				35650AF81F150DC500B5C158 /* VietMapTurfTests */,
+				353E9B061F3E093A007CFA23 /* VietMapTurfMac */,
+				353E9B0E1F3E093A007CFA23 /* VietMapTurfMacTests */,
+				DA39EB6420101F98004D87F7 /* VietMapTurfTV */,
+				DA39EB6C20101F99004D87F7 /* VietMapTurfTVTests */,
+				DA94249A2010283900CDB4E6 /* VietMapTurfWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -831,17 +831,17 @@
 /* Begin PBXTargetDependency section */
 		353E9B121F3E093A007CFA23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 353E9B061F3E093A007CFA23 /* TurfMac */;
+			target = 353E9B061F3E093A007CFA23 /* VietMapTurfMac */;
 			targetProxy = 353E9B111F3E093A007CFA23 /* PBXContainerItemProxy */;
 		};
 		35650AFC1F150DC500B5C158 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 35650AEF1F150DC500B5C158 /* Turf */;
+			target = 35650AEF1F150DC500B5C158 /* VietMapTurf */;
 			targetProxy = 35650AFB1F150DC500B5C158 /* PBXContainerItemProxy */;
 		};
 		DA39EB7020101F99004D87F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA39EB6420101F98004D87F7 /* TurfTV */;
+			target = DA39EB6420101F98004D87F7 /* VietMapTurfTV */;
 			targetProxy = DA39EB6F20101F99004D87F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -863,7 +863,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.turf;
-				PRODUCT_NAME = Turf;
+				PRODUCT_NAME = VietMapTurf;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -887,7 +887,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.turf;
-				PRODUCT_NAME = Turf;
+				PRODUCT_NAME = VietMapTurf;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -907,7 +907,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.TurfTests;
-				PRODUCT_NAME = TurfTests;
+				PRODUCT_NAME = VietMapTurfTests;
 				SDKROOT = macosx;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -926,7 +926,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.TurfTests;
-				PRODUCT_NAME = TurfTests;
+				PRODUCT_NAME = VietMapTurfTests;
 				SDKROOT = macosx;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -1072,7 +1072,7 @@
 				INFOPLIST_FILE = Sources/Turf/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.turf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vietmap.VietMapTurf;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1094,7 +1094,7 @@
 				INFOPLIST_FILE = Sources/Turf/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.turf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vietmap.VietMapTurf;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -1146,7 +1146,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.turf;
-				PRODUCT_NAME = Turf;
+				PRODUCT_NAME = VietMapTurf;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1169,7 +1169,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.turf;
-				PRODUCT_NAME = Turf;
+				PRODUCT_NAME = VietMapTurf;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1186,7 +1186,7 @@
 				INFOPLIST_FILE = Tests/TurfTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.TurfTests;
-				PRODUCT_NAME = TurfTests;
+				PRODUCT_NAME = VietMapTurfTests;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1202,7 +1202,7 @@
 				INFOPLIST_FILE = Tests/TurfTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.TurfTests;
-				PRODUCT_NAME = TurfTests;
+				PRODUCT_NAME = VietMapTurfTests;
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1225,7 +1225,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.turf;
-				PRODUCT_NAME = Turf;
+				PRODUCT_NAME = VietMapTurf;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1249,7 +1249,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.turf;
-				PRODUCT_NAME = Turf;
+				PRODUCT_NAME = VietMapTurf;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1260,7 +1260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		353E9B181F3E093A007CFA23 /* Build configuration list for PBXNativeTarget "TurfMac" */ = {
+		353E9B181F3E093A007CFA23 /* Build configuration list for PBXNativeTarget "VietMapTurfMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				353E9B191F3E093A007CFA23 /* Debug */,
@@ -1269,7 +1269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		353E9B1B1F3E093A007CFA23 /* Build configuration list for PBXNativeTarget "TurfMacTests" */ = {
+		353E9B1B1F3E093A007CFA23 /* Build configuration list for PBXNativeTarget "VietMapTurfMacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				353E9B1C1F3E093A007CFA23 /* Debug */,
@@ -1278,7 +1278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35650AEA1F150DC500B5C158 /* Build configuration list for PBXProject "Turf" */ = {
+		35650AEA1F150DC500B5C158 /* Build configuration list for PBXProject "VietMapTurf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35650B021F150DC500B5C158 /* Debug */,
@@ -1287,7 +1287,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35650B041F150DC500B5C158 /* Build configuration list for PBXNativeTarget "Turf" */ = {
+		35650B041F150DC500B5C158 /* Build configuration list for PBXNativeTarget "VietMapTurf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35650B051F150DC500B5C158 /* Debug */,
@@ -1296,7 +1296,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35650B071F150DC500B5C158 /* Build configuration list for PBXNativeTarget "TurfTests" */ = {
+		35650B071F150DC500B5C158 /* Build configuration list for PBXNativeTarget "VietMapTurfTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35650B081F150DC500B5C158 /* Debug */,
@@ -1305,7 +1305,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA39EB7A20101F99004D87F7 /* Build configuration list for PBXNativeTarget "TurfTV" */ = {
+		DA39EB7A20101F99004D87F7 /* Build configuration list for PBXNativeTarget "VietMapTurfTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA39EB7620101F99004D87F7 /* Debug */,
@@ -1314,7 +1314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA39EB7B20101F99004D87F7 /* Build configuration list for PBXNativeTarget "TurfTVTests" */ = {
+		DA39EB7B20101F99004D87F7 /* Build configuration list for PBXNativeTarget "VietMapTurfTVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA39EB7820101F99004D87F7 /* Debug */,
@@ -1323,7 +1323,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA9424A02010283A00CDB4E6 /* Build configuration list for PBXNativeTarget "TurfWatch" */ = {
+		DA9424A02010283A00CDB4E6 /* Build configuration list for PBXNativeTarget "VietMapTurfWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA9424A12010283A00CDB4E6 /* Debug */,

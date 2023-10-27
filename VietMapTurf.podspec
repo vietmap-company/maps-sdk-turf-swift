@@ -2,32 +2,25 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.name = "Turf"
-  s.version = "0.2.1"
-  s.summary = "Simple spatial analysis."
-  s.description = "A spatial analysis library written in Swift for native iOS, macOS, tvOS, watchOS, and Linux applications, ported from Turf.js."
+  s.name         = "VietMapTurf"
+  s.version      = "1.0.2"
+  s.summary      = "VietMap Directions API wrapper for Swift and Objective-C."
+  s.homepage          = 'https://github.com/vietmap-company'
+  s.documentation_url = "https://maps.vietmap.vn/docs/sdk-mobile/sdk-ios/sdk-ios-ver2.0/"
 
-  s.homepage = "https://github.com/mapbox/turf-swift"
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  s.license = { :type => "ISC", :file => "LICENSE.md" }
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
-  s.author = { "Mapbox" => "mobile@mapbox.com" }
-  s.social_media_url = "https://twitter.com/mapbox"
+  s.license      = { :type => "MIT", :file => "LICENSE.md" }
+  s.author            = { 'NhatPV' => 'nhatpv@vietmap.vn' }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.ios.deployment_target = "12.0"
-  s.osx.deployment_target = "10.10"
-  s.tvos.deployment_target = "9.0"
-  s.watchos.deployment_target = "2.0"
+  # s.osx.deployment_target = "10.10"
+  # s.tvos.deployment_target = "9.0"
+  # s.watchos.deployment_target = "2.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source = { :git => "https://github.com/mapbox/turf-swift.git", :tag => "v#{s.version.to_s}" }
+  s.source = { :git => "https://github.com/vietmap-company/maps-sdk-turf-swift.git", :tag => "#{s.version.to_s}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -36,7 +29,7 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.requires_arc = true
-  s.module_name = "Turf"
+  s.module_name = "VietMapTurf"
 
   s.frameworks = 'CoreLocation'
 
