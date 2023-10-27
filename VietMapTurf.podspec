@@ -32,5 +32,6 @@ Pod::Spec.new do |s|
   s.module_name = "VietMapTurf"
 
   s.frameworks = 'CoreLocation'
+  s.swift_version = '4.0'
 
 end
